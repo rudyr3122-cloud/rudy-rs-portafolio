@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Rudy RS | Portafolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script
+        type="module"
+        src="https://unpkg.com/@splinetool/viewer@1.12.98/build/spline-viewer.js"
+    >
+    </script>
+</head>
+
+<body>
+
+    <!-- =====================================
+         MENÚ PRINCIPAL
+    ====================================== -->
+
+    <nav
+        class="menu"
+        aria-label="Navegación principal"
+    >
+
+        <button
+            class="activo"
+            data-seccion="inicio"
+            type="button"
+        >
+            Inicio
+        </button>
+
+        <button
+            data-seccion="sobre-mi"
+            type="button"
+        >
+            Acerca de mí
+        </button>
+
+        <button
+            data-seccion="proyectos"
+            type="button"
+        >
+            Proyectos
+        </button>
+
+        <button
+            data-seccion="servicios"
+            type="button"
+        >
+            Servicios
+        </button>
+
+    </nav>
+
+
+    <main>
+
+        <!-- =====================================
+             PORTADA SPLINE
+        ====================================== -->
+
+        <section
+            id="inicio"
+            class="seccion seccion-inicio activa"
+        >
+
+            <spline-viewer
+                url="https://prod.spline.design/RB7MLScWkEgEsA2n/scene.splinecode"
+            >
+            </spline-viewer>
+
+            <div class="indicador-scroll">
+
+                <span>
+                    Explorar portafolio
+                </span>
+
+                <div class="mouse">
+                    <div class="rueda"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             ACERCA DE MÍ
+        ====================================== -->
+
+        <section
+            id="sobre-mi"
+            class="seccion seccion-clara"
+        >
+
+            <div class="decoracion decoracion-uno"></div>
+            <div class="decoracion decoracion-dos"></div>
+
+
+            <div class="encabezado-seccion">
+
+                <span class="etiqueta">
+                    Perfil profesional
+                </span>
+
+                <h2>
+                    Acerca de mí
+                </h2>
+
+                <p>
+                    Diseño ideas, construyo identidades y convierto conceptos
+                    en experiencias visuales con personalidad.
+                </p>
+
+            </div>
+
+
+            <div class="sobre-mi-grid">
+
+                <div class="foto-perfil">
+
+                    <div class="marco-foto">
+
+                        <img
+                            src="images/perfil.jpg"
+                            alt="Fotografía profesional de Rudy RS"
+                        >
+
+                    </div>
+
+                    <div class="insignia-flotante">
+
+                        <span class="punto"></span>
+
+                        Disponible para proyectos
+
+                    </div>
+
+                </div>
+
+
+                <div class="informacion-personal">
+
+                    <span class="mini-titulo">
+                        Diseñador gráfico y creador de contenido visual
+                    </span>
+
+                    <h3>
+                        Creo piezas visuales que conectan
+                        <span>
+                            creatividad y estrategia.
+                        </span>
+                    </h3>
+
+                    <p>
+                        Soy Rudy RS. Me especializo en diseño gráfico,
+                        creación de contenido, fotografía, contenido para
+                        redes sociales y desarrollo de identidades visuales.
+                    </p>
+
+                    <p>
+                        Mi experiencia en atención al cliente y coordinación
+                        de equipos también me permite comprender las
+                        necesidades de cada proyecto y transformarlas en
+                        soluciones funcionales y atractivas.
+                    </p>
+
+
+                    <div class="datos-profesionales">
+
+                        <div class="dato">
+                            <span>Experiencia</span>
+
+                            <strong>
+                                Diseño y contenido digital
+                                STUDIO MATTE Y PUP CLUB
+                            </strong>
+                        </div>
+
+                        <div class="dato">
+                            <span>Ubicación</span>
+
+                            <strong>
+                                Guatemala
+                            </strong>
+                        </div>
+
+                        <div class="dato">
+                            <span>Especialidad</span>
+
+                            <strong>
+                                Identidad y comunicación visual
+                            </strong>
+                        </div>
+
+                        <div class="dato">
+                            <span>Modalidad</span>
+
+                            <strong>
+                                Presencial y remota
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="habilidades">
+
+                        <span>Branding</span>
+                        <span>Diseño gráfico</span>
+                        <span>Fotografía</span>
+                        <span>Edición de video</span>
+                        <span>Animación</span>
+                        <span>Redes sociales</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             PROYECTOS
+        ====================================== -->
+
+        <section
+            id="proyectos"
+            class="seccion seccion-clara"
+        >
+
+            <div class="decoracion decoracion-tres"></div>
+
+
+            <div class="encabezado-seccion centrado">
+
+                <span class="etiqueta">
+                    Trabajo seleccionado
+                </span>
+
+                <h2>
+                    Mis proyectos
+                </h2>
+
+                <p>
+                    Presiona una carpeta para explorar los trabajos
+                    realizados en cada categoría.
+                </p>
+
+            </div>
+
+
+            <div class="carpetas-grid">
+
+                <!-- CARPETA 1 -->
+
+                <button
+                    class="carpeta-proyecto"
+                    type="button"
+                    data-carpeta="diseno"
+                >
+
+                    <div class="vista-carpeta morado">
+
+                        <img
+                            src="images/portada-diseno.jpg"
+                            alt="Portada de proyectos de diseño gráfico"
+                        >
+
+                        <div class="icono-carpeta">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path
+                                    d="M3 6.5C3 5.12 4.12 4 5.5 4H9l2 2h7.5C19.88 6 21 7.12 21 8.5v8C21 17.88 19.88 19 18.5 19h-13C4.12 19 3 17.88 3 16.5v-10Z"
+                                >
+                                </path>
+
+                            </svg>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="informacion-carpeta">
+
+                        <div>
+
+                            <span class="numero">
+                                01
+                            </span>
+
+                            <h3>
+                                Diseño gráfico
+                            </h3>
+
+                        </div>
+
+                        <p>
+                            Identidades, publicaciones, publicidad
+                            y contenido visual.
+                        </p>
+
+                        <span class="abrir-carpeta">
+
+                            Abrir carpeta
+
+                            <span
+                                class="flecha-carpeta"
+                                aria-hidden="true"
+                            >
+                                &#8599;
+                            </span>
+
+                        </span>
+
+                    </div>
+
+                </button>
+
+
+                <!-- CARPETA 2 -->
+
+                <button
+                    class="carpeta-proyecto"
+                    type="button"
+                    data-carpeta="audiovisual"
+                >
+
+                    <div class="vista-carpeta azul">
+
+                        <img
+                            src="images/portada-audiovisual.jpg"
+                            alt="Portada de proyectos de producción audiovisual"
+                        >
+
+                        <div class="icono-carpeta">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path
+                                    d="M3 6.5C3 5.12 4.12 4 5.5 4H9l2 2h7.5C19.88 6 21 7.12 21 8.5v8C21 17.88 19.88 19 18.5 19h-13C4.12 19 3 17.88 3 16.5v-10Z"
+                                >
+                                </path>
+
+                            </svg>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="informacion-carpeta">
+
+                        <div>
+
+                            <span class="numero">
+                                02
+                            </span>
+
+                            <h3>
+                                Producción audiovisual
+                            </h3>
+
+                        </div>
+
+                        <p>
+                            Edición de video, fotografía,
+                            animación y contenido digital.
+                        </p>
+
+                        <span class="abrir-carpeta">
+
+                            Abrir carpeta
+
+                            <span
+                                class="flecha-carpeta"
+                                aria-hidden="true"
+                            >
+                                &#8599;
+                            </span>
+
+                        </span>
+
+                    </div>
+
+                </button>
+
+
+                <!-- CARPETA 3 -->
+
+                <button
+                    class="carpeta-proyecto"
+                    type="button"
+                    data-carpeta="marcas"
+                >
+
+                    <div class="vista-carpeta oscuro">
+
+                        <img
+                            src="images/portada-marcas.jpg"
+                            alt="Portada de contenido para marcas"
+                        >
+
+                        <div class="icono-carpeta">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path
+                                    d="M3 6.5C3 5.12 4.12 4 5.5 4H9l2 2h7.5C19.88 6 21 7.12 21 8.5v8C21 17.88 19.88 19 18.5 19h-13C4.12 19 3 17.88 3 16.5v-10Z"
+                                >
+                                </path>
+
+                            </svg>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="informacion-carpeta">
+
+                        <div>
+
+                            <span class="numero">
+                                03
+                            </span>
+
+                            <h3>
+                                Contenido para marcas
+                            </h3>
+
+                        </div>
+
+                        <p>
+                            Campañas, publicaciones y piezas
+                            para redes sociales.
+                        </p>
+
+                        <span class="abrir-carpeta">
+
+                            Abrir carpeta
+
+                            <span
+                                class="flecha-carpeta"
+                                aria-hidden="true"
+                            >
+                                &#8599;
+                            </span>
+
+                        </span>
+
+                    </div>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SERVICIOS Y CONTACTO
+        ====================================== -->
+
+        <section
+            id="servicios"
+            class="seccion seccion-clara"
+        >
+
+            <div class="decoracion decoracion-cuatro"></div>
+
+
+            <div class="encabezado-seccion centrado">
+
+                <span class="etiqueta">
+                    Lo que puedo hacer
+                </span>
+
+                <h2>
+                    Mis servicios
+                </h2>
+
+                <p>
+                    Soluciones visuales diseñadas para fortalecer
+                    marcas, proyectos y contenido digital.
+                </p>
+
+            </div>
+
+
+            <div class="servicios-grid">
+
+                <article class="servicio">
+
+                    <div class="icono-servicio">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <path
+                                d="M4 4h16v16H4V4Zm3 3v4h4V7H7Zm6 0v10h4V7h-4ZM7 13v4h4v-4H7Z"
+                            >
+                            </path>
+
+                        </svg>
+
+                    </div>
+
+                    <span>
+                        01
+                    </span>
+
+                    <h3>
+                        Diseño gráfico
+                    </h3>
+
+                    <p>
+                        Publicaciones, piezas publicitarias,
+                        composiciones y comunicación visual.
+                    </p>
+
+                </article>
+
+
+                <article class="servicio destacado">
+
+                    <div class="icono-servicio">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <path
+                                d="M4 5h16v14H4V5Zm3 3v8l6-4-6-4Zm8 1h3V7h-3v2Zm0 4h3v-2h-3v2Zm0 4h3v-2h-3v2Z"
+                            >
+                            </path>
+
+                        </svg>
+
+                    </div>
+
+                    <span>
+                        02
+                    </span>
+
+                    <h3>
+                        Producción audiovisual
+                    </h3>
+
+                    <p>
+                        Edición de video, fotografía,
+                        animación y piezas digitales.
+                    </p>
+
+                </article>
+
+
+                <article class="servicio">
+
+                    <div class="icono-servicio">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <path
+                                d="M12 3 4 7v10l8 4 8-4V7l-8-4Zm0 3.2L16.7 8 12 9.8 7.3 8 12 6.2Zm-5 4.5 3.5 1.4v5.4L7 15.8v-5.1Zm6.5 6.8v-5.4l3.5-1.4v5.1l-3.5 1.7Z"
+                            >
+                            </path>
+
+                        </svg>
+
+                    </div>
+
+                    <span>
+                        03
+                    </span>
+
+                    <h3>
+                        Identidad de marca
+                    </h3>
+
+                    <p>
+                        Conceptos visuales, estilo gráfico
+                        y contenido coherente para marcas.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+            <div class="contacto">
+
+                <div class="contacto-texto">
+
+                    <span class="etiqueta">
+                        Hablemos
+                    </span>
+
+                    <h3>
+                        ¿Tienes una idea?
+
+                        <span>
+                            Construyámosla juntos.
+                        </span>
+                    </h3>
+
+                    <p>
+                        Puedes comunicarte conmigo directamente
+                        por Instagram, WhatsApp o correo electrónico.
+                    </p>
+
+                </div>
+
+
+                <div class="contacto-enlaces">
+
+                    <!-- INSTAGRAM -->
+
+                    <a
+                        class="contacto-item"
+                        href="https://www.instagram.com/rudya_rs/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+
+                        <div class="contacto-icono">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path
+                                    d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6Zm9.65 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"
+                                >
+                                </path>
+
+                            </svg>
+
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Instagram
+                            </span>
+
+                            <strong>
+                                @rudya_rs
+                            </strong>
+
+                        </div>
+
+                        <span
+                            class="flecha-contacto"
+                            aria-hidden="true"
+                        >
+                            &#8599;
+                        </span>
+
+                    </a>
+
+
+                    <!-- WHATSAPP -->
+
+                    <a
+                        class="contacto-item"
+                        href="https://wa.me/50241424242"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+
+                        <div class="contacto-icono">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path
+                                    d="M12.04 2A9.84 9.84 0 0 0 3.6 16.9L2 22l5.23-1.55A9.95 9.95 0 1 0 12.04 2Zm0 17.84a7.87 7.87 0 0 1-4.01-1.1l-.29-.17-3.1.92.94-3.02-.19-.31A7.83 7.83 0 1 1 12.04 19.84Zm4.3-5.87c-.24-.12-1.4-.69-1.61-.77-.22-.08-.38-.12-.54.12-.16.24-.62.77-.76.93-.14.16-.28.18-.52.06-.24-.12-1-.37-1.91-1.18-.7-.63-1.18-1.41-1.32-1.65-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.47-.39-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.1 3.62.57.25 1.02.39 1.37.5.58.18 1.1.16 1.51.1.46-.07 1.4-.57 1.6-1.13.2-.56.2-1.03.14-1.13-.06-.1-.22-.16-.46-.28Z"
+                                >
+                                </path>
+
+                            </svg>
+
+                        </div>
+
+                        <div>
+
+                            <span>
+                                WhatsApp
+                            </span>
+
+                            <strong>
+                                +502 4142 4242
+                            </strong>
+
+                        </div>
+
+                        <span
+                            class="flecha-contacto"
+                            aria-hidden="true"
+                        >
+                            &#8599;
+                        </span>
+
+                    </a>
+
+
+                    <!-- CORREO -->
+
+                    <a
+                        class="contacto-item"
+                        href="mailto:Rudyr3122@gmail.com"
+                    >
+
+                        <div class="contacto-icono">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path
+                                    d="M3 5h18v14H3V5Zm2 2v.4l7 4.9 7-4.9V7H5Zm14 10V9.85l-7 4.9-7-4.9V17h14Z"
+                                >
+                                </path>
+
+                            </svg>
+
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Correo electrónico
+                            </span>
+
+                            <strong>
+                                Rudyr3122@gmail.com
+                            </strong>
+
+                        </div>
+
+                        <span
+                            class="flecha-contacto"
+                            aria-hidden="true"
+                        >
+                            &#8599;
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================
+         VENTANA DE PROYECTOS
+    ====================================== -->
+
+    <div
+        id="modal-proyectos"
+        class="modal"
+        aria-hidden="true"
+    >
+
+        <div
+            class="fondo-modal"
+            data-cerrar-modal
+        >
+        </div>
+
+
+        <div
+            class="ventana-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="titulo-modal"
+        >
+
+            <header class="modal-header">
+
+                <div>
+
+                    <span class="etiqueta">
+                        Carpeta de proyectos
+                    </span>
+
+                    <h2 id="titulo-modal">
+                        Diseño gráfico
+                    </h2>
+
+                </div>
+
+
+                <button
+                    class="cerrar-modal"
+                    type="button"
+                    aria-label="Cerrar carpeta"
+                    data-cerrar-modal
+                >
+                    ×
+                </button>
+
+            </header>
+
+
+            <p
+                id="descripcion-modal"
+                class="descripcion-modal"
+            >
+                Selección de proyectos realizados.
+            </p>
+
+
+            <div
+                id="galeria-modal"
+                class="galeria-modal"
+            >
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
